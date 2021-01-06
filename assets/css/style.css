@@ -4,29 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 
 /* Componentes */
+@import "./bootstrap.css";
 @import "./header.css";
 @import "./botoes.css";
 @import "./main.css";
-
-/* Reset Css */
-*{
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-  border: 0;
-  font-size: 100%;
-  font-family: sans-serif, serif, Arial;
-  font-weight: 300;
-  font: inherit;
-  text-decoration: none;
-}
-
-.container {
-  width: 1024px;
-  margin: 30px auto;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
+@import "./footer.css";
+@import "./responsivo.css";
+@import "./responsivo-elementos.css";
+@import "./responsivo-background.css";
