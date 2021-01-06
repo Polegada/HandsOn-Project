@@ -1,4 +1,13 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+
+/* Componentes */
 @import "./header.css";
+@import "./botoes.css";
+
+/* Reset Css */
 *{
   margin: 0;
   padding: 0;
@@ -6,4 +15,5 @@
   border: 0;
   font-size: 100%;
   font: inherit;
+  text-decoration: none;
 }
