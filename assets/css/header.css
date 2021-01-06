@@ -7,6 +7,7 @@ header nav ul{
   display: flex;
   flex-direction: row;
   list-style: none;
+  font-size: 140%;
 }
 
 header nav ul li a{
